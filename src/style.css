@@ -1,0 +1,16 @@
+.card{
+    display: inline-flex;
+    border: 1px solid #000;
+    flex-direction: column;
+    margin: 5px;
+    text-align: center;
+}
+.title:first-child{
+    border-bottom: 1px solid #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item{
+    padding: 5px;
+}
