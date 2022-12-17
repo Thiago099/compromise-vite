@@ -1,16 +1,31 @@
+body{
+    background-color: rgb(224, 224, 224);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+.item{
+    padding: 5px;
+}
 .card{
     display: inline-flex;
-    border: 1px solid #000;
+    border: 1px solid rgb(0, 0, 0);
     flex-direction: column;
     margin: 5px;
     text-align: center;
 }
-.title:first-child{
-    border-bottom: 1px solid #000;
+.subtitle{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(97, 156, 223);
+}
+.title{
+    border-bottom: 1px solid rgb(8, 8, 8);
     font-size: 20px;
     font-weight: bold;
+    color: rgb(115, 192, 134);
+
 }
 
-.item{
-    padding: 5px;
-}
